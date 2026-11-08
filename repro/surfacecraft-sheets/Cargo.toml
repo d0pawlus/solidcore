@@ -1,0 +1,12 @@
+[package]
+name = "upstream-probe"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+solidcore = { path = "../../crates/solidcore" }
+solidcore-ops = { path = "../../crates/solidcore-ops" }
+solidcore-record = { path = "../../crates/solidcore-record" }
+
+[workspace]
